@@ -24,6 +24,9 @@ namespace DXApplication64
         public MainWindow()
         {
             InitializeComponent();
+            var list = new List<String>();
+            list.Add("Test");
+            Tree.ItemsSource = list;
         }
     }
 
